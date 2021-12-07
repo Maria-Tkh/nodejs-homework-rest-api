@@ -10,9 +10,6 @@ const listContacts = async (req, res, next) => {
       result: contacts
     }
   })
-  // } catch (error) {
-  //   next(error)
-  // }
 }
 
 module.exports = listContacts

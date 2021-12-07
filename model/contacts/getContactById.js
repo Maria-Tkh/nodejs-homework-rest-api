@@ -1,5 +1,3 @@
-// const fs = require('fs/promises')
-// const contactsPath = require('./contactsPath');
 const listContacts = require('./listContacts')
 
 const getContactById = async (id) => {

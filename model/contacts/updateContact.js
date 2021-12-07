@@ -1,5 +1,3 @@
-// const fs = require('fs/promises')
-// const contactsPath = require('./contactsPath')
 const updateContacts = require('./updateContacts')
 const listContacts = require('./listContacts')
 
