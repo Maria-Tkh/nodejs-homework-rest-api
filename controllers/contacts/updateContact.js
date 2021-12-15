@@ -1,7 +1,5 @@
-// const contactsOperations = require('../../models/contact')
 const { Contact } = require('../../models')
 const { NotFound } = require('http-errors')
-// const { BadRequest } = require('http-errors')
 
 const updateContact = async (req, res) => {
   const { id } = req.params

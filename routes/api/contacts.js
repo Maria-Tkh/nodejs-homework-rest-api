@@ -4,8 +4,6 @@ const { validation, ctrlWrapper } = require('../../middlewares')
 const { joiSchema, statusJoiSchema } = require('../../models/contact')
 const { contacts: ctrl } = require('../../controllers')
 
-// const validateMiddleware = validation(contactSchema)
-
 router.get('/', ctrlWrapper(ctrl.listContacts))
 
 router.get('/:id', ctrlWrapper(ctrl.getContactById))

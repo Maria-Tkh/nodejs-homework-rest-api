@@ -16,15 +16,7 @@ const contactSchema = Schema({
     type: Boolean,
     default: false,
   },
-}, { versionKey: false, timestamps: true }
-)
-
-// const contactSchema = Schema({
-//   name: String,
-//   email: String,
-//   phone: String
-
-// })
+}, { versionKey: false, timestamps: true })
 
 const joiSchema = Joi.object({
   name: Joi.string().required(),
